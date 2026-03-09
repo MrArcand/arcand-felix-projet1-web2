@@ -45,6 +45,27 @@ La maquette contient plusieurs composants réutilisables :
 - Section de témoignages
 Je vais les coder de manière modulaire pour faciliter la maintenance.
 ___
+## Ma structure HTML prévue
+header: options du site (navgiations) + inscriptions   header
+
+main
+
+  section "hero"section
+  
+  section "à propos"section
+  
+  section "les services"section
+  
+  section  "les horaires"section
+  
+  section  "les temoignages"section
+  
+  section "tarifs" section
+
+main
+
+footer coordonées de l'entreprise footer
+___
 ## Mon Plan d’intégration
 
 - Créer la structure HTML complète
