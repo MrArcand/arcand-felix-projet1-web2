@@ -17,16 +17,259 @@ Les espacements sont constants et la hiérarchie typographique est claire (titre
 La palette de couleurs est simple : bleu foncé, blanc, orange.
 ___
 ## Variables CSS prévues
-Je vais créer un système de variables pour :
+
+
+body 
+
+
+
+/* header */
+
+nav 
+
+
+h2 
+
+
+li 
+
+
+#grimper 
+
+.img 
+
+
+/* header */
+
+
+/* main */
+
+main
+
+
+.hero 
+
+
+.hero 
+
+
+.hero__container 
+
+.hero_titre 
+
+
+.hero_soustitre 
+
+
+.button 
+
+
+.primary
+
+
+.secondary 
+
+.logo
+
+
+p 
+
+/* Content */
+
+
+.a-propos 
+
+.a-propos-title
+
+.subtitle-a-propos
+
+.list 
+
+.row 
+
+.article_mission
+
+.square_mission 
+
+.frame_mission 
+
+
+.mission_title 
+
+
+.mission_subtitle
+
+
+
+
+.user_mission 
+
+.circle_mission
+
+
+.article_croyons
+
+
+
+.square_croyons 
+
+
+.frame_croyons 
+
+
+.croyons_title 
+
+.croyons_subtitle 
+
+
+.user_croyons
+
+
+.circle_mission
+
+
+/* products*/
+
+.product 
+
+
+.product_container
+
+.product > .row{
+  width: 80%;
+}
+
+.product_title 
+
+.card
+
+
+ .image 
+
+
+ .text_content 
+
+ .p_product
+ 
+ .h1_product
+
+ /* horaires */
+
+ .horaires 
+
+ .subtitle_horaires
+
+
+
+
+  
+
+
+ .items 
+
+ .list_horaires 
+
+
+
+ .row_horaires 
+ 
+.clock 
+
+.clock_icon 
+
+
+.h4
+
+ /* vector 200 */
+
+.vector
+
+ /* reviews */
+
+ .reviews 
+ 
+ .container
+ 
+ .card_reviews
+
+ .user
+ 
+ .avatar
+
+.avatar_image
+
+.p_reviews
+
+/*team meet*/
+
+.team_meet 
+
+
+.avatar_team
+
+.h2_blue
+
+.blue_button 
+
+
+-----TARIFICATION------
+
+
+.tarification
+
+.list_tarification 
+
+.tarif_card 
+
+.image_container
+
+.square_statement
+
+.frame_statement 
+
+.p_statement 
+
+------CONTACT-------
+
+.contact
+
+.row_contact 
+
+
+.name
+
+.h3_contact
+
+.textfiled
+
+.h4_contact
+
+
+.box_send 
+
+
+.send_button 
+
+------ FOOTER ------
+
+.footer
+  
+
+.footer_container
+
+.cta_box
+
+.h3_footer
+
+.pause
 #### Couleurs
 - --color-primary (bleu foncé) (#2C5273)
 - --color-accent (vert foncé) (#074714)
 - --color-light (noir) (#000000)
 - --color-muted (gris clair) (#9E9E9E)
 #### Typographie
-- Overcame demo, 60px,titre
-- Sporteria,20px,sous titre
-- Sporteria,14px,texte
+ "Montagu Slab"
+
 #### Espacements
 - space-8
 - space-16
@@ -43,10 +286,11 @@ La maquette contient plusieurs composants réutilisables :
 - Navigation du header
 - Formulaire de contact
 - Section de témoignages
-Je vais les coder de manière modulaire pour faciliter la maintenance.
 ___
 ## Ma structure HTML prévue
-header: options du site (navgiations) + inscriptions   header
+Je vais créer un système de variables BEM pour que ca soit assez repérables par section pour moi
+
+header: options du site (navgiations) + inscriptions   heade
 
 main
 
@@ -61,6 +305,9 @@ main
   section  "les temoignages"section
   
   section "tarifs" section
+
+  section "contact" section
+  section "footer" section (le bas de la page)
 
 main
 
